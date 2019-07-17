@@ -1,0 +1,46 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #282a2c;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+svg{
+    width: 300px;
+    align-self: center;
+    justify-self: center;
+
+}
+
+svg #nfe{
+    animation-duration: 0.9s;
+    animation-name: AnimateNFe;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes AnimateNFe {
+    from {
+        transform: translateX(0) translateY(0);
+        opacity: 0.9;
+    }
+    to{
+        transform: translateX(60px) translateY(-70px);
+        opacity: 1;
+    }
+}
+
+.st0{fill:#41693F;}
+.st1{fill:#50814D;}
+.st2{fill:#538550;}
+.st3{fill:#578D55;}
+.st4{fill:#6FB26B;}
+.st5{fill:#E2E2E2;}
+.st6{fill:#B3B3B3;}
